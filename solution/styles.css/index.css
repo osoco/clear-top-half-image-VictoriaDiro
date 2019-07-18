@@ -1,0 +1,24 @@
+.image__container {
+  position: relative;
+}
+
+.hide__container {
+  height: 170px;
+  width: 250px;
+  background-color: white;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  z-index: 1;
+  display: none;
+}
+
+.hide__on {
+  display: initial;
+}
+
+.image {
+  position: absolute;
+  top: 30px;
+  left: 10px;  
+}
